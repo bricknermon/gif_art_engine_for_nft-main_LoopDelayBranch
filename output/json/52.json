@@ -1,0 +1,39 @@
+{
+	 "name":"Don't Touch That #52",
+	 "description":"The Don't Touch that collective is a collection of 100 Pixel Art NFTs created and Themed off a 2017 viral meme video. Each of the Don't touch that Collective NFT's are uniquely combined with different traits minted on the Ethereum blockchain.",
+	 "image":"/52.gif",
+	 "dna": " 2 0 4 1 1 1 3 ",
+	 "edition":"52",
+	 "date":"1644458219",
+	 "attributes": [
+	 	 {
+	 	 	 "trait_type": "Background",
+	 	 	 "value": "Red"
+	 	 },
+	 	 {
+	 	 	 "trait_type": "Character",
+	 	 	 "value": "Base Character"
+	 	 },
+	 	 {
+	 	 	 "trait_type": "Headwear",
+	 	 	 "value": "None"
+	 	 },
+	 	 {
+	 	 	 "trait_type": "Shirt",
+	 	 	 "value": "Tank Top"
+	 	 },
+	 	 {
+	 	 	 "trait_type": "Trousers",
+	 	 	 "value": "Jeans"
+	 	 },
+	 	 {
+	 	 	 "trait_type": "Accessories",
+	 	 	 "value": "None"
+	 	 },
+	 	 {
+	 	 	 "trait_type": "Skateboard",
+	 	 	 "value": "Orange"
+	 	 }
+	 ],
+	 "Compiler": "CeloPunks Algorithm"
+}

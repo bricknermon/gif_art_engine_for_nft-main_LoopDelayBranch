@@ -1,0 +1,41 @@
+Background
+Blue: 30
+Green: 33
+Red: 32
+White: 5
+
+Character
+Base Character: 100
+
+Headwear
+Bird: 6
+Cowboy: 12
+Helmet: 13
+Messy Hair: 12
+None: 41
+Orange Cap: 8
+Windy Hair: 8
+
+Shirt
+None: 7
+Tank Top: 52
+TeeShirt: 41
+
+Trousers
+Black Pants: 37
+Jeans: 28
+Orange Shorts: 6
+Purple Shorts: 9
+Red Shorts: 20
+
+Accessories
+Laser eyes: 5
+None: 92
+Pizza: 3
+
+Skateboard
+Blue: 24
+Red: 19
+Green: 29
+Orange: 28
+
