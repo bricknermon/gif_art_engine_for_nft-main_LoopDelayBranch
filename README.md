@@ -2,6 +2,8 @@
 
 *THIS BRANCH ALLOWS YOU TO ADD A DELAY TO GIF LOOP, FOR ANY ASSISTANCE PLEASE CONTACT ME ON DISCORD @ KittyCaptain#4284*
 
+Any Tips are appreciated (Sol Add): 56sa9wHKRfJencg41bsyw8Cs91iM7cDd8toJjM4C2Dsm
+
 ## Introduction
 A GIF art engine that will allow you to generate multi-layer GIFs from single GIFs as layers. All the code in this repository has been written by **me** in c++, inspired by the generative art engine of HashLips that does not support GIFs as layers. The problem arose from my and my teamleader's need to generate animated images and then GIFs, in the same way as HashLips generated static images.
 
