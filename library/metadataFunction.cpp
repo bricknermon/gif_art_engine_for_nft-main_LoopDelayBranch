@@ -8,8 +8,9 @@
 #include <utility>
 
 using namespace std;
-
-static void generateSingleMetadata(const vector<string> &punkDna, int currGen, const vector<string> &layerDir, const vector<vector<string>> &singleLayer, const string &name, const string &description, const string &image, const vector<pair<string,string>> &extraMetadata)
+//string symbol = "";
+//int seller_fee_basis_points = 500;
+static void generateSingleMetadata(const vector<string> &punkDna, int currGen, int seller_fee_basis_points, const vector<string> &layerDir, const vector<vector<string>> &singleLayer, const string &name, const string &description, const string &image, const vector<pair<string,string>> &extraMetadata)
 {
     string dna = "";
     ofstream fout("../output/json/" + to_string(currGen) + ".json");
@@ -23,20 +24,33 @@ static void generateSingleMetadata(const vector<string> &punkDna, int currGen, c
         
     fout << "{" << endl;
     fout << "\t \"name\":\"" + name + " #" + to_string(currGen) + "\"," << endl;
+    fout << "\t \"symbol\":\"" + "string" + "\"," << endl;
     fout << "\t \"description\":\"" + description + "\"," << endl;
+    fout << "\t \"seller_fee_basis_points\":\"" + "500" + "\"," << endl;
     fout << "\t \"image\":\"" + image + "/" + to_string(currGen) + ".gif\"," << endl;
-    fout << "\t \"dna\": \"" + dna + " \"," << endl;
+    //fout << "\t \"dna\": \"" + dna + " \"," << endl;
     fout << "\t \"edition\":\"" + to_string(currGen) + "\"," << endl;
-    fout << "\t \"date\":\"" + to_string(time(NULL)) + "\"," << endl;
+   // fout << "\t \"date\":\"" + to_string(time(NULL)) + "\"," << endl;
     fout << "\t \"attributes\": [" << endl;
     for(int i=0;i<(int)layerDir.size();++i){
         fout << "\t \t {" << endl;
         fout << "\t \t \t \"trait_type\": \"" + layerDir[i] + "\"," << endl;
         fout << "\t \t \t \"value\": \"" + singleLayer[i][atoi(punkDna[i].c_str())] + "\"" << endl;
-        if(i!=(int)layerDir.size()-1)
+        if(i!=(int)layerDir.size()-1){
             fout << "\t \t }," << endl;
-        else
+        } else {
             fout << "\t \t }" << endl;
+        }
+               fout << "\t \"collection\":\"" + "{" + "\"," << endl;
+               fout << "\t \"name\":\"" + name + + "\"," << endl;
+               fout << "\t \"familty\":\"" + "" +  + "\"," << endl;
+               fout << "\t \t }" + "\"," << endl;
+        
+
+
+                
+
+
     }
     fout << "\t ]," << endl;
     for(int i=0;i<(int)extraMetadata.size();++i){
