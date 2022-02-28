@@ -135,7 +135,7 @@ The code was tested with FFmpeg version 4.2.4.
 
 If you want to clone the project, run this command:
 ```
-git clone https://github.com/Goldo02/gif_art_engine_for_nft.git
+git clone https://github.com/bricknermon/gif_art_engine_for_nft-main_LoopDelayBranch.git
 ```
 After doing so, move to the folder where you cloned the project and go to the _src_ folder.
 
